@@ -1,0 +1,13 @@
+[package]
+name = "s2e-rust"
+version = "0.1.0"
+authors = ["Dingisoul <dingiso.oah@gmail.com>"]
+edition = "2021"
+description = "selective symbolic execution, written in Rust"
+repository = "https://github.com/dingiso/s2e-rust"
+readme = "README.md"
+keywords = ["symbolic", "selective", "dynamic"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hayable = { version = "0.7.1", features = ["llvm-13", "vendor-boolector"] }
